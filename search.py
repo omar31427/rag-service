@@ -14,7 +14,6 @@ def dot(a,b):
 chunks = []
 with open("chunks.json", "r", encoding="utf-8") as file:
     chunks = json.load(file)
-# print(f"data[0]: {data[0]["embedding"]}")
 
 
 while True:
